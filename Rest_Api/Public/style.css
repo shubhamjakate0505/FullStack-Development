@@ -1,0 +1,22 @@
+.imgs{
+    width: 100px;
+    height: 100px;
+}
+body{
+    align-items: center;
+}
+h1{
+    text-align: center;
+    /* align-items: center; */
+}
+.temp{
+    /* margin-left: 40px; */
+    background-color: pink;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    /* margin-left: 3rem; */
+    width: 240px;
+    height: 300px;
+}

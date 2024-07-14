@@ -1,0 +1,11 @@
+.wrapper{
+    text-align: center;
+    /* align-items: center; */
+}
+.wrapper ul li{
+    list-style: none;
+    padding: 15px;
+    
+    /* line-height: 8px; */
+
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>INStagram API</h1>
+    
+        <% for(post of posts){ %> 
+            <div class="temp">
+                <h1>@<%=post.name%></h1>
+                <img src="<%= post.Image %>" class="imgs">
+                <h2><%=post.content%></h2>
+                <button>Add Post</button>
+            </div>
+            
+        <%}%>
+    
+   
+</body>
+</html>
+

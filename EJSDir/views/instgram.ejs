@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Small Activity</title>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+
+    <h1>This is Page Belong to @ <%= data.name %></h1>
+    <button>Fallow</button>
+    <button>Message</button>
+
+    <p>Followers : <%= data.followers%>&nbsp;&nbsp;&nbsp;&nbsp; Follwing : <%= data.following%></p>
+    <hr >
+    <% for(let post of data.posts){ %>
+        <img src="<%=post.image %>" alt="thi is some pic">
+        <p>Likes : <%=post.likes%>&nbsp;&nbsp;&nbsp;&nbsp; comments : <%=post.comments%></p>
+
+    <% } %>
+            
+
+</body>
+</html>
+ 
